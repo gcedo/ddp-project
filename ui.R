@@ -10,13 +10,13 @@ library(shiny)
 shinyUI(fluidPage(
 
   # Application title
-  titlePanel("Old Faithful Geyser Data"),
+  titlePanel("Trends in immigrants population in Milan"),
 
   # Sidebar with a slider input for number of bins
   sidebarLayout(
     sidebarPanel(
       sliderInput("bins",
-                  "Number of bins:",
+                  "Number of countries:",
                   min = 1,
                   max = 50,
                   value = 10)
