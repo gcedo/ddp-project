@@ -19,7 +19,9 @@ shinyUI(fluidPage(
                   "Number of countries:",
                   min = 1,
                   max = 50,
-                  value = 10)
+                  value = 10),
+      h3('How to'),
+      p('Drag the slider to decide how many countries you want to be displayed.')
     ),
 
     # Show a plot of the generated distribution
